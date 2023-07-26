@@ -1,0 +1,10 @@
+import Brand from "./brands/Brands.jsx"
+import BuildingProcess from "./building-process/BuildingProcess.jsx"
+import Footer from "./footer/Footer.jsx"
+import Intro from "./intro-description/IntroDescription.jsx"
+import JoinUs from "./join-us/JoinUs.jsx"
+import Navbar from "./navbar/Navbar.jsx"
+import reachOut from "./reachout-us/ReachOut.jsx"
+import VRcontent from "./vr-content/VrContent.jsx"
+import VrFeatures from "./vr-features/VrFeatures"
+export {Brand,BuildingProcess,Footer,Intro,JoinUs,Navbar,reachOut,VRcontent,VrFeatures}
