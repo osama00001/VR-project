@@ -5,21 +5,21 @@
     .nav_logo {
       display: flex;
       align-items: center;
-      width: 21%;
+      width: 29%;
       .img1 {
         margin: 10px;
         width: 62px;
         height: 60px;
       }
       .img2 {
-        width: 56px;
-        height: 26px;
+        width: 61px;
+        height: 45px;
       }
     }
     .menu_links {
     }
     .nav_links {
-      width: 51%;
+      width: 42%;
       .nav_list {
         width: 100%;
         display: flex;
@@ -40,8 +40,8 @@
         .button1 {
           border-radius: 20px;
           background-color: #2f2c42;
-          padding-right: 20px;
-          padding-left: 20px;
+          padding-right: 46px;
+          padding-left: 42px;
           padding-top: 10px;
           padding-bottom: 10px;
           border: 1px solid white;
@@ -165,7 +165,7 @@
   .navbar_container {
     .navbar_wrapper {
       .nav_logo {
-        width: 55%;
+        width: 51%;
       }
       .nav_links {
         display: none;
@@ -185,7 +185,11 @@
   }
 }
 @media screen and (min-width: 970px) and (max-width: 1500px) {
-svg{
-    display: none;
+  .navbar_container{
+  .navbar_wrapper{
+  svg{
+      display: none;
+}
+  }
 }
 }
