@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Navbar.scss"
 import logo from "../../assert/logo.png"
 import logo2 from "../../assert/logo2.png"
+
 import {RiCloseLine,RiMenuLine} from "react-icons/ri"
 const Navbar = () => {
 const [toggle,setToggle]=useState(false)
@@ -27,7 +28,7 @@ const [toggle,setToggle]=useState(false)
             </div>
             
         </div>
-        {toggle?<RiCloseLine className='nav_icons'  color='#9387BD' size={27} onClick={()=>setToggle(!toggle)}/>:<RiMenuLine  color='#9387BD' size={27} onClick={()=>setToggle(!toggle)}/>}
+        {toggle?<RiCloseLine  className='nav_icons'  color='#9387BD' size={27} onClick={()=>setToggle(!toggle)}/>:<RiMenuLine  className='nav_icons' color='#9387BD' size={27} onClick={()=>setToggle(!toggle)}/>}
      </div>
      {toggle&&
      <div className='menu_container'>

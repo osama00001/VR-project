@@ -10,7 +10,7 @@ body {
 .bg_gradient{
   /* global 92%+ browsers support */
  background: #2F2C42;
- padding: 50px 50px 28px 70px;
+ padding: 30px 50px 28px 50px;
 }
 
 
@@ -81,9 +81,10 @@ body {
   }
     
 }
-@media only screen and (min-width: 640px) and (max-width: 900px) {
+@media screen and (min-width:700px) and (max-width: 980px){
   .bg_gradient{
-    padding: 29px 15px 10px 35px;
+    padding: 29px 38px 10px 35px;
   }
 }
+
         
