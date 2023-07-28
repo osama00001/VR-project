@@ -24,6 +24,7 @@ const Header = () => {
         </div>
         <div className='header_image'>
             <img src={mask} alt='header-iamge'/>
+           
         </div>
       </div>
     </div>

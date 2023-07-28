@@ -1,0 +1,125 @@
+.intro_container{
+    .intro_wrapper{
+        display: flex;
+        justify-content: space-between;
+
+        padding-bottom:40px;
+        padding-top: 56px;
+        padding-right: 70px;
+        padding-left: 70px;
+
+        .intro_hydra_wrapper{
+            padding-right:182px;
+        .intro_hydra{
+            padding-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            font-family: var(--font-family);
+            .title{
+                h1{
+                    
+                font-size: 27px;
+                font-weight: bold;
+                color: #ffff; 
+                
+                }
+                .arrow_wrapper{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width:150px;
+                        height: 47px;
+                      
+                    }
+                    p{
+                        color: #ffff;
+                        font-weight: light; 
+                        font-style:normal;
+                        font-size: 15px;
+                        padding-right:40px;
+                        
+                   
+                }
+            }
+                
+                
+                }
+            }
+            .image{
+                img{
+                    
+                    width: 340px;
+                height: 397px;
+                }
+                
+            }
+        }
+        .about_hydra{
+            .para_wrapper{
+                display: flex;
+                flex-direction: column;
+                .intro_para{
+                    // width: 92%;
+                    p{
+                        color: #FFFFFF;
+                    font-weight: light; 
+                    font-style:normal;
+                    font-size: 12px;
+                    font-family: var(--font-family);
+                    padding-bottom:92px;
+                    }
+                    
+                }
+                .about{
+                    padding-bottom: 30px;
+                    h1{
+                        color: #FFFFFF;
+                        font-weight: bold; 
+                        font-style:normal;
+                        font-size: 27px;
+                        font-family: var(--font-family) ;
+                        p{
+                            font-weight: lighter;
+                            font-size: 26px;
+                        }
+                    }
+                }
+                .about_para{
+                    width: 100%;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    p{
+                        color: #FFFFFF;
+                        font-weight: lighter; 
+                        font-style:normal;
+                        font-size: 12px;
+                        font-family: var(--font-family); 
+                     
+                    }
+                }
+                .button_wrapper{
+                    button {
+                        border-radius: 20px;
+                        font-weight: bold;
+                        padding-right: 40px;
+                        padding-left: 40px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        border: 1px solid #c0b8e9;
+                        background: rgb(138, 125, 183);
+                        background: linear-gradient(
+                          74deg,
+                          rgba(138, 125, 183, 1) 67%,
+                          rgba(252, 249, 249, 1) 98%
+                        );
+                        color: rgb(4, 4, 4);
+                        margin-right: 30px;
+                        font-family: var(--font-family);
+                        font-size: 8px;
+                      }
+                }
+            }
+        }
+        
+    }
+}

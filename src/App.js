@@ -1,6 +1,7 @@
 import React from 'react';
 import {Brand,BuildingProcess,Footer,Header,Intro,JoinUs,Navbar,ReachOut,VRcontent,VrFeatures} from "./components"
 import './main.scss';
+import IntroDescription from './components/intro-description/IntroDescription';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar/>
       <Header/>
       <ReachOut/>
+      <IntroDescription/>
     </div>
   );
 }
