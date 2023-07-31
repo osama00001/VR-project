@@ -123,3 +123,103 @@
         
     }
 }
+
+@media  screen and (max-width:600px) {
+    .intro_container{
+        padding-top:70px;
+        .intro_wrapper{
+            display: block;
+            padding-bottom:0px;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-left: 0px;
+    
+            .intro_hydra_wrapper{
+                padding-right:0px;
+                text-align: center;
+                justify-content: center;
+            .intro_hydra{
+                padding-bottom: 40px;
+                .title{
+                    h1{
+                    font-size: 35px;
+                    
+                    }
+                    .arrow_wrapper{
+                        display: block;
+                       
+                        img{
+                           display: none;
+                          
+                        }
+                        p{
+                            
+                            font-size: 30px;
+                            padding-right:0px;
+                            
+                       
+                    }
+                }
+                    
+                    
+                    }
+                }
+                .image{
+                    img{
+                        
+                        width: 309px;
+                    height: 391px;
+                    }
+                    
+                }
+            }
+            .about_hydra{
+                .para_wrapper{
+                    display: block;
+                    flex-direction: column;
+                    text-align: center;
+                    .intro_para{
+                        // width: 92%;
+                        p{
+                          display: none;
+                        }
+                        
+                    }
+                    .about{
+                        padding-bottom: 30px;
+                        h1{
+                            display: none;
+                            
+                            p{
+                                font-weight: lighter;
+                                font-size: 26px;
+                            }
+                        }
+                    }
+                    .about_para{
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                        padding-left: 15px;
+                        padding-right: 5px;
+                        p{
+                            text-align: justify; 
+                        }
+                    }
+                    .button_wrapper{
+                        button {
+                            border-radius: 20px;
+                            padding-right: 50px;
+                            padding-left: 50px;
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                            margin-right: 0px;
+                            font-size: 11px;
+                          }
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}

@@ -10,6 +10,8 @@ function App() {
       <Header/>
       <ReachOut/>
       <IntroDescription/>
+      <VrFeatures/>
+      <Brand/>
     </div>
   );
 }
