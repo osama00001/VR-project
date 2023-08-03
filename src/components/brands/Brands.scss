@@ -29,9 +29,9 @@
         }
         .elipse{
         position: relative;
-        left: 40%;
-            width: 60px;
-            height: 60px;
+        left: 35%;
+        width: 63px;
+        height: 64px;
             border-radius: 100%;
             background: rgb(138, 125, 183);
             background: linear-gradient(
@@ -56,7 +56,88 @@
 .brand_wrapper{
     .brand_list{
         display: flex;
-        
+        justify-content: space-between;
+        align-items: center; 
+        padding:30px;
+        img{
+        width: 200px;
+        height: 180px;
+        }
     }
+   
 }
+}
+@media screen and (max-width:600px) {
+    
+.brand_container{
+    padding: 10px;
+    .image_brand_container{
+        position: relative;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 35px;
+        padding-bottom: 0px;
+        img{
+            width: 100%;
+            height: 189px;
+        }
+        .title{
+            position:absolute;
+            left: 12%;
+            top: 46%;
+            color: white;
+                font-family: var(--font-family);
+            h1{
+                font-size: 15px;
+                font-weight: bold;
+                padding-bottom: 10px;
+                
+            }
+            h4{
+                font-size: 15px;
+                font-style: normal;
+                text-align: center;
+                padding-bottom: 102px;
+            }
+            .elipse{
+            display: none;
+    
+            }
+        }
+      
+    }
+    .brand_wrapper{
+        display: none;
+        
+
+        
+       
+    }
+    .brand_slider_wrapper{
+        padding-left: 44px;
+        padding-top: 20px;
+        .image_wrap{
+            position: relative;
+          img{
+            width:250px;
+            height:250px;
+          }
+          .dots{
+            position: absolute;
+            top: 96%;
+            left: 15%;
+          }  
+        }
+     
+    
+    }
+    }
+
+
+
+
+
+
+
+
 }

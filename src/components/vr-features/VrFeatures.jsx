@@ -1,12 +1,42 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './VrFeatures.scss'
 import image1 from "../../assert/image1.png"
 import image2 from "../../assert/image2.png"
 import image3 from "../../assert/image3.png"
 import image4 from "../../assert/image4.png"
+import leftArrow from "../../assert/shape 4.png"
+import rightArrow from "../../assert/shape 2.png"
+
+const cardDetails=[
+  {img:image1,title:'SIMULATION'},
+  {img:image2,title:'EDUCATION'},
+  {img:image3,title:'SELF-CARE'},
+  {img:image4,title:'OUTDOOR'},
+]
 
 
 const VrFeatures = () => {
+  const [cardIndex,setCardIndex]=useState(0)
+  const handleLeftClick=()=>{
+    console.log(cardDetails.length)
+    if(cardIndex===0)
+    {
+    setCardIndex(cardDetails.length-1)
+    }
+    else{
+      setCardIndex(cardIndex-1)
+    }
+    
+  }
+  const handleRightClick=()=>{
+    if(cardIndex===cardDetails.length-1)
+    {
+    setCardIndex(0)
+    }
+    else{
+      setCardIndex(cardIndex+1)
+    }
+  }
   return (
     <div className='vr_feature_container'>
       <div className='vr_wrapper'>
@@ -98,7 +128,38 @@ libero justo laoreet sit amet vitae.</p>
           </div>
         </div>
       </div>
+
     </div>
+    <div className='mobile_vr_features'>
+    <div className='cardlist_container'>
+        <div className='card_wrapper'>
+          <div className='card_circle'>
+            <img src={cardDetails[cardIndex].img}/>
+          </div>
+          <div className='card_title'>
+            <h1>{cardDetails[cardIndex].title}</h1>
+        
+          </div>
+          <div className='para'>
+            <p>Vitae sapien pellentesque habitant morbi
+nunc. Viverra aliquet  porttitor rhoncus 
+libero justo laoreet sit amet vitae.</p>
+          </div>
+          <div className='vr_button'>
+            <button>Try It Now</button>
+          </div>
+        </div>
+        <div className='elipse'>
+          <img src={leftArrow} onClick={handleLeftClick}/>
+        </div>
+        <div className='elipse2'>
+          <img src={rightArrow} onClick={handleRightClick}/>
+        </div>
+      </div>
+      
+      </div>
+    
+    
     </div>
   )
 }
