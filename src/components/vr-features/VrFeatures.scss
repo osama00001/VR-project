@@ -37,6 +37,7 @@
     .vr_features{
       display: flex;
       padding-top:50px;
+      padding-left:50px;
     .cardlist_container{
         padding-left: 45px;
         padding-right: 35px;
@@ -302,4 +303,10 @@
   }
 }
 }
+}
+
+@media screen and (min-width:1000px) and (max-width:1700px) {
+  .mobile_vr_features{
+    display:  none;
+  }
 }

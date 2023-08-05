@@ -1,0 +1,95 @@
+.build_container {
+  .build_wrapper {
+    .build_content {
+      display: flex;
+      align-items: center;
+      color: white;
+      padding-bottom: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
+      .build_title {
+        width: 191%;
+        .title_wrapper {
+          display: flex;
+          align-items: center;
+          h4 {
+            font-size: 22px;
+          }
+          .image_wrapper {
+            padding-left: 20px;
+            img {
+              width: 148px;
+            }
+          }
+        }
+
+        font-family: "Times New Roman", Times, serif;
+        h1 {
+          font-size: 30px;
+        }
+      }
+      .build_para {
+        p {
+          color: #aaa3a3;
+          font-size: 20px;
+        }
+      }
+    }
+    .circles_container {
+      padding-top: 95px;
+      padding-left: 75px;
+      padding-right: 0px;
+      .circles_wrapper {
+        display: flex;
+        justify-content: space-between;
+        .circle_flex {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          .circle {
+            position: relative;
+            .wrapper {
+              background: linear-gradient(
+                74deg,
+                rgb(138, 125, 183) 67%,
+                rgb(252, 249, 249) 98%
+              );
+              color: rgb(4, 4, 4);
+              width: 161px;
+              height: 159px;
+              box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+              border: 14px solid #1f1b27;
+              border-radius: 63%;
+            }
+            img {
+              position: absolute;
+              top: 41%;
+              left: 30%;
+              height: 36px;
+              width: 50px;
+            }
+          }
+          .title_wrapper {
+            display: flex;
+            align-items: center;
+            padding-top: 30px;
+            .title {
+              h1 {
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+              }
+            }
+            .title_image {
+              width: 20%;
+              img {
+                max-width: 100%;
+                width: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

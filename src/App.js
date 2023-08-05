@@ -12,6 +12,8 @@ function App() {
       <IntroDescription/>
       <VrFeatures/>
       <Brand/>
+      <BuildingProcess/>
+      <JoinUs/>
     </div>
   );
 }
