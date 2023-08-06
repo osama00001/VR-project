@@ -8,12 +8,12 @@
       width: 29%;
       .img1 {
         margin: 10px;
-        width: 62px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
       }
       .img2 {
-        width: 61px;
-        height: 45px;
+        width: 100px;
+        height: 70px;
       }
     }
     .menu_links {
@@ -29,7 +29,7 @@
           color: #ffff;
           font-weight: 800px;
           font-family: var(--font-family);
-          font-size: 12px;
+          font-size: 16px;
         }
       }
     }
@@ -48,7 +48,7 @@
           color: white;
           margin-right: 30px;
           font-family: var(--font-family);
-          font-size: 10px;
+          font-size: 15px;
         }
         .button2 {
           @extend .button1;
@@ -184,7 +184,7 @@
     }
   }
 }
-@media screen and (min-width: 970px) and (max-width: 1500px) {
+@media screen and (min-width: 970px) and (max-width: 1800px) {
   .navbar_container{
   .navbar_wrapper{
   svg{
