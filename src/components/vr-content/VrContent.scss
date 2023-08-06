@@ -1,0 +1,14 @@
+.copy_rights_wrapper{
+    padding-top:50px;
+    .copy_rights{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            padding-top:20px;
+            font-size: 16px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+}
