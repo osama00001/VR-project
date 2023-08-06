@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import "./BuildingProcess.scss";
 import arrowImg from "../../assert/Component 3.png";
 import circle1 from "../../assert/01.png";
@@ -6,8 +6,16 @@ import circle2 from "../../assert/02.png";
 import circle3 from "../../assert/03.png";
 import circle4 from "../../assert/04.png";
 import arrow from "../../assert/shape 5.png";
+import { RxDot, RxDotFilled } from "react-icons/rx";
 
 const BuildingProcess = () => {
+  const imageArr=[{title:'3D Conception & Design',img:circle1},{title:'Interaction Design',img:circle2},
+  {title:'VR World User Testing',img:circle3},
+  {title:'Hydra VR Deploy',img:circle4},]
+  const [currentIndex,setCurrentIndex]=useState(0)
+  const handleImageIndex=(i)=>{
+    setCurrentIndex(i)
+  }
   return (
     <div className="build_container">
       <div className="build_wrapper">
@@ -94,6 +102,19 @@ const BuildingProcess = () => {
             </div>
           </div>
         </div>
+       {/* mobile view */}
+       <div className="building_mob_view">
+        <div className="slide_view">
+          <div className="circle_wrapper">
+            <div className="circle"></div>
+          <img src={imageArr[currentIndex].img}/>
+          </div>
+          <h1>{imageArr[currentIndex].title}</h1>
+          <div className='dots'>
+        {imageArr.map((dot,i)=>currentIndex===i?<RxDotFilled onClick={()=>handleImageIndex(i)}  color='#AC68D2' size={50}/>:<RxDot onClick={()=>handleImageIndex(i)}  color='#9387BD' size={50}/>)}
+        </div>
+        </div>
+       </div>
       </div>
     </div>
   );

@@ -24,20 +24,19 @@
   
         }
         .para{
-            width: 56%;
+            width: 61%;
             p{
                 color: #FFFFFF;
                 font-weight: lighter;
                 font-style: normal;
-                font-size: 12px;
+                font-size: 18px;
                 font-family: var(--font-family);
             }
         }
     }
     .vr_features{
       display: flex;
-      padding-top:50px;
-      padding-left:50px;
+      justify-content: space-between;
     .cardlist_container{
         padding-left: 45px;
         padding-right: 35px;

@@ -15,8 +15,8 @@ function App() {
       <Brand/>
       <BuildingProcess/>
       <JoinUs/>
-      <Footer/>
-      <VrContent/>
+        <Footer/>
+        <VrContent/>
     </div>
   );
 }

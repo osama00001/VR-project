@@ -15,14 +15,14 @@ const JoinUs = () => {
             <input type='text' placeholder='Last Name'/>
           </div>
           <div className='row_1'>
-            <input type='text' placeholder='First Name'/>
-            <input type='text' placeholder='Last Name'/>
+            <input type='text' placeholder='Email'/>
+            <input type='text' placeholder='Phone Number'/>
           </div>
           <div className='row_2'>
-            <input type='text' placeholder='First Name'/>
+            <input type='text' placeholder='Subject'/>
           </div>
           <div className='row_3'>
-          <textarea id="w3review" name="w3review" rows="10" cols="120" />
+          <textarea id="w3review" name="w3review" placeholder='Tell us something' rows="10" cols="120" />
           </div>
           <div className='vr_button'>
             <button>Send To Hydra</button>
